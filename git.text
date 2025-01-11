@@ -2,4 +2,50 @@ git status
 git init
 git add filesnames
 git commit -m "message: Added files"
-git push origint
+git log
+git remote add origin "https://github.com/"
+git push origin master
+
+
+
+
+## to set git in local mode
+git config --global-- always
+git config --global -- always
+git config user.name "user"
+git config user.email "email"
+ 
+#Cloning the repository 
+
+git clone "https://github.com/" repository-name.git
+
+#Git pull request
+
+git pull origin master
+
+#git push
+
+git push origin master
+
+
+#to show commited files  with identity of filesystem
+git status
+Git show id
+Git checkout id
+
+
+
+
+ echo "Git status: "
+git status
+echo "Git log: "
+git logecho "Git status: "
+git status
+echo "Git log: "
+git log
+echo "Git add files: "
+git add .
+echo "Git commit: "
+git commit -m "message: Added files"
+echo "Git push: "
+git push origin master
