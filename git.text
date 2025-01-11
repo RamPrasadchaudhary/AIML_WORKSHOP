@@ -1,0 +1,5 @@
+git status
+git init
+git add filesnames
+git commit -m "message: Added files"
+git push origint
